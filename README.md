@@ -17,6 +17,20 @@ I build automation that helps operators protect data, understand their systems, 
 
 ## Featured projects
 
+### [CyClaw](https://github.com/cgfixit/CyClaw) · local AI with explicit controls
+
+An offline-first AI backend for querying a local knowledge base, with retrieval before generation and a governed coding workflow for real repositories.
+
+- **Control the request path:** hybrid search combines semantic and keyword retrieval; LangGraph routes requests through explicit confirmation and audit steps.
+- **Keep changes reviewable:** the optional coding harness separates patching, verification, human approval, pushing, and draft-PR creation.
+- **Make state inspectable:** audit logs and integrity checks, plus optional user accounts and a memory store with proposal/apply controls. The coding layer, accounts, and memory ship disabled.
+
+**Stack:** Python · FastAPI · LangGraph · ChromaDB · BM25/RRF · Ollama · SQLite · MCP<br />
+[Architecture](https://github.com/cgfixit/CyClaw#architecture) · [Setup guide](https://github.com/cgfixit/CyClaw/blob/main/setup-guide.md) · [Tests](https://github.com/cgfixit/CyClaw/tree/main/tests)
+
+[Explore the CyClawOS UI demo](https://o3mjwe6dliqf6.kimi.page/) · [Alternate demo](https://cyclaw-demo-cgrady92.grok.me)<br />
+<sub>CyClawOS is a browser simulation of the interface and workflows; the Python backend is a separate project linked above.</sub>
+
 ### [CyClaw Net Viewer](https://github.com/cgfixit/Mac-NetViewer-EZview) · macOS network visibility
 
 <sub>Latest project · Created September 6, 2026 · Repository: Mac-NetViewer-EZview</sub>
@@ -30,15 +44,15 @@ A TCPView-inspired desktop app and CLI for seeing which processes own TCP/UDP co
 **Stack:** Rust · egui/eframe · macOS socket APIs<br />
 [Build and run](https://github.com/cgfixit/Mac-NetViewer-EZview/blob/master/docs/BUILD.md) · [Design](https://github.com/cgfixit/Mac-NetViewer-EZview/blob/master/docs/DESIGN.md) · [Tests](https://github.com/cgfixit/Mac-NetViewer-EZview/tree/master/tests)
 
-### [CyClaw](https://github.com/cgfixit/CyClaw) · local AI with explicit controls
+### [CG-Agent-Harness](https://github.com/cgfixit/CG-Agent-Harness) · rust
 
-An offline-first AI backend for querying a local knowledge base, with retrieval before generation and a governed coding workflow for real repositories.
+one line blurb
 
 - **Control the request path:** hybrid search combines semantic and keyword retrieval; LangGraph routes requests through explicit confirmation and audit steps.
 - **Keep changes reviewable:** the optional coding harness separates patching, verification, human approval, pushing, and draft-PR creation.
-- **Make state inspectable:** audit logs and integrity checks, plus optional user accounts and a memory store with proposal/apply controls. The coding layer, accounts, and memory ship disabled.
+- **Make state inspectable:** audit logs and integrity checks, plus optional user accounts and a memory store with proposal/apply controls. The coding layer, accounts, and memory ship disabled. - end line here
 
-**Stack:** Python · FastAPI · LangGraph · ChromaDB · BM25/RRF · Ollama · SQLite · MCP<br />
+**Stack:** Rust and i dunno <br />
 [Architecture](https://github.com/cgfixit/CyClaw#architecture) · [Setup guide](https://github.com/cgfixit/CyClaw/blob/main/setup-guide.md) · [Tests](https://github.com/cgfixit/CyClaw/tree/main/tests)
 
 [Explore the CyClawOS UI demo](https://o3mjwe6dliqf6.kimi.page/) · [Alternate demo](https://cyclaw-demo-cgrady92.grok.me)<br />
