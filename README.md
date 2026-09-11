@@ -15,7 +15,7 @@ I work on infrastructure automation, recovery tooling, and applied AI with expli
 
 [Featured projects](#featured-projects) · [More projects](#more-projects) · [How I build](#how-i-build) · [Get in touch](#get-in-touch)
 
-## Featured projects
+## Projects
 
 ### [CyClaw](https://github.com/cgfixit/CyClaw) · offline-first local AI
 
@@ -89,10 +89,8 @@ Coordinates VMware backup proxies around SCCM/ConfigMgr maintenance from VBR or 
 <details>
 <summary><strong>Technology across the portfolio</strong></summary>
 
-- **Infrastructure:** Veeam, VMware, SCCM/ConfigMgr, WinRM, Windows, Linux, macOS, Docker
+- **Infrastructure:** Veeam, VMware, SCCM/ConfigMgr, WinRM, Windows, Linux, macOS
 - **AI / data:** FastAPI, LangGraph, Ollama, ChromaDB, BM25/RRF, Sentence-Transformers, Pydantic, SQLite, MCP
-- **Validation:** pytest, Pester, Rust tests + Clippy, GitHub Actions, YARA
-
 </details>
 
 ## Get in touch
