@@ -11,9 +11,7 @@
   <a href="mailto:contact@cgfixit.com">Email</a>
 </p>
 
-I work on infrastructure automation, recovery tooling, and applied AI with explicit controls. Day to day that means Python, PowerShell, and Rust against real operator constraints.
-
-[Featured projects](#featured-projects) · [More projects](#more-projects) · [How I build](#how-i-build) · [Get in touch](#get-in-touch)
+[More projects](#more-projects) · [How I build](#how-i-build) · [Get in touch](#get-in-touch)
 
 ## Projects
 
