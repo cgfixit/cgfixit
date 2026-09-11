@@ -11,8 +11,6 @@
   <a href="mailto:contact@cgfixit.com">Email</a>
 </p>
 
-[More projects](#more-projects) · [How I build](#how-i-build) · [Get in touch](#get-in-touch)
-
 ## Projects
 
 ### [CyClaw](https://github.com/cgfixit/CyClaw) · offline-first local AI
