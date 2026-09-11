@@ -86,17 +86,9 @@ Coordinates VMware backup proxies around SCCM/ConfigMgr maintenance from VBR or 
 | [**Polymarket Mimic Trader**](https://github.com/cgfixit/PolyMarket_Mimic_Trader) | Async Python research bot with scoring, exposure limits, and circuit breakers. **Paper mode only; live trading is disabled.** |
 | [**Scrape-n-Email**](https://github.com/cgfixit/Scrape-n-Email) | Python scrape + email digests with retries, CSV formula escaping, typed config, and offline tests. |
 
-## How I build
-
-- Start from an operational constraint (backup must finish before maintenance; local AI needs an explicit step before any cloud call).
-- Put controls in the implementation: scoped access, validation, confirmation gates, inspectable logs.
-- Test failure paths (timeouts, bad input, missing deps, denied actions) alongside the happy path.
-- Leave a clear next step: setup notes, examples, and reviewable output.
-
 <details>
 <summary><strong>Technology across the portfolio</strong></summary>
 
-- **Languages:** Python, PowerShell, Rust, Bash
 - **Infrastructure:** Veeam, VMware, SCCM/ConfigMgr, WinRM, Windows, Linux, macOS, Docker
 - **AI / data:** FastAPI, LangGraph, Ollama, ChromaDB, BM25/RRF, Sentence-Transformers, Pydantic, SQLite, MCP
 - **Validation:** pytest, Pester, Rust tests + Clippy, GitHub Actions, YARA
