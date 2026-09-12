@@ -24,8 +24,7 @@ Local knowledge-base Q&amp;A with retrieval before generation, plus an optional 
 **Stack:** Python · FastAPI · LangGraph · ChromaDB · BM25/RRF · Ollama · SQLite · MCP<br />
 [Architecture](https://github.com/cgfixit/CyClaw#architecture) · [Setup](https://github.com/cgfixit/CyClaw/blob/main/setup-guide.md) · [Tests](https://github.com/cgfixit/CyClaw/tree/main/tests)
 
-[UI demo](https://bit.ly/CyClawDemo) · [Alternate demo](https://bit.ly/CyClaw-Demo)<br />
-<sub>Demos are browser simulations of the UI. The Python backend is the repo above.</sub>
+[UI demo](https://bit.ly/CyClaw-Demo) · [Screenshots](https://github.com/cgfixit/CyClaw/tree/main/docs/screenshots)<br>
 
 ### [CyClaw-Net-Viewer](https://github.com/cgfixit/CyClaw-Net-Viewer) · macOS process egress
 
@@ -46,7 +45,7 @@ Rust port of CyClaw’s coding console and real-repo pipeline — without RAG or
 - Pipeline: clone → plan → patch → sandbox verify → human decide → commit → push → draft PR.
 - HTTP process reaches the pipeline only by spawning a child (`src/shim`); missing API key fails closed.
 
-**Stack:** Rust · axum · tokio · cap-std<br />
+**Stack:** Rust (Learning currently) · axum · tokio · cap-std<br />
 [README](https://github.com/cgfixit/CG-agent-harness#readme) · [Invariants](https://github.com/cgfixit/CG-agent-harness/blob/main/INVARIANTS.md) · [Setup](https://github.com/cgfixit/CG-agent-harness/blob/main/setup-guide.md)
 
 ### [Veeam YARA Scanner](https://github.com/cgfixit/Veeam-PS1-Scanner-Yara-Rule-Detection-Onion-Links) · recovery inspection
@@ -82,17 +81,8 @@ Coordinates VMware backup proxies around SCCM/ConfigMgr maintenance from VBR or 
 | [**Polymarket Mimic Trader**](https://github.com/cgfixit/PolyMarket_Mimic_Trader) | Async Python research bot with scoring, exposure limits, and circuit breakers. **Paper mode only; live trading is disabled.** |
 | [**Scrape-n-Email**](https://github.com/cgfixit/Scrape-n-Email) | Python scrape + email digests with retries, CSV formula escaping, typed config, and offline tests. |
 
-<details>
-<summary><strong>Technology across the portfolio</strong></summary>
-
-- **Infrastructure:** Veeam, VMware, SCCM/ConfigMgr, WinRM, Windows, Linux, macOS
-- **AI / data:** FastAPI, LangGraph, Ollama, ChromaDB, BM25/RRF, Sentence-Transformers, Pydantic, SQLite, MCP
-</details>
-
 ## Get in touch
 
-Open to systems/solutions engineering, infrastructure automation, security tooling, and applied AI roles. If that matches what you’re hiring for, email is best.
+Open to systems/solutions engineering, infrastructure automation, agentic engineering, forward deployed engineering, security tooling, and applied AI roles.
 
 [**contact@cgfixit.com**](mailto:contact@cgfixit.com) · [LinkedIn](https://linkedin.com/in/cgrady92) · [Website](https://cgfixit.com)
-
-<sub>Reviewed September 7, 2026. Public, non-archived original projects only; archived work and forks are omitted.</sub>
